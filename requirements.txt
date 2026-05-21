@@ -1,0 +1,17 @@
+# ── Core ETL ───────────────────────────────────────────────
+requests==2.31.0
+python-dotenv==1.0.1
+psycopg2-binary==2.9.9
+pandas==2.2.2
+numpy==1.26.4
+
+# ── Kafka ──────────────────────────────────────────────────
+kafka-python==2.0.2
+
+# ── Airflow (install separately via pip or the Dockerfile) ─
+# apache-airflow==2.9.0   # managed in Dockerfile.airflow
+
+# ── Dashboard ──────────────────────────────────────────────
+flask==3.0.3
+flask-cors==4.0.1
+gunicorn==22.0.0

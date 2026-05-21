@@ -1,0 +1,3 @@
+# Security: Ignore environment variables and secrets
+.env
+docker/.env
